@@ -5,7 +5,7 @@ https://cbapi.readthedocs.io/en/latest/
 To summarise, to run scripts here you need to:
 1. Install Python 
 2. Install cbapi - pip install cbapi
-3. Grab the API key from the console
+3. Grab the API key from cbr web console
 4. run: cbapi-response configure 
   (in windows you will need to go into the python directory then \scripts\cbapi-response)
 5. Use the scripts with caution!  
