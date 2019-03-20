@@ -14,7 +14,7 @@ def main():
   #Connect to CB Response
   cb = CBEnterpriseResponseAPI()
   #Select sensor from command line
-  sensor = cb.select(sensor).where("hostname:{0}".format(args.c))[0]
+  sensor = cb.select(Sensor).where("hostname:{0}".format(args.c))[0]
   
   #Isolate sensor
   sensor.network_isolation_enabled = True
@@ -36,7 +36,7 @@ def main():
   
   isolated = False
   while isolated == False:
-    check = cb.select(Sensor).where("hostname:{0}".format(args.c))[0])
+    check = cb.select(Sensor).where("hostname:{0}".format(args.c))[0]
     isolated = check.is_isolating
     print("Isolation enabled?", check.is_isolating)
     time.sleep(30)
