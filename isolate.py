@@ -1,4 +1,4 @@
-#Script will:
+# Script will:
 # Isolate the endpoint
 # Send message to user informing them their computer has been isolated, you may want to remove this if you believe it's an insider threat etc
 # Sync all events from sensor with server so they available in CBR asap
