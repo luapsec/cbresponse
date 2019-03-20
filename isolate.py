@@ -18,7 +18,7 @@ def main():
   args = parser.parse_args()
   
   #Connect to CB Response
-  cb = CBEnterpriseResponseAPI()
+  cb = CbEnterpriseResponseAPI()
   #Select sensor from command line
   sensor = cb.select(Sensor).where("hostname:{0}".format(args.c))[0]
   
