@@ -14,7 +14,7 @@ def main():
 
   #Command line options/help info
   parser = argparse.ArgumentParser(description='Isolate a Carbon Black Sensor')
-  parser.add_argument("-c", type=str, action="store", help"Computer to isolate.", required=True")
+  parser.add_argument("-c", type=str, action="store", help="Computer to isolate.", required=True")
   args = parser.parse_args()
   
   #Connect to CB Response
