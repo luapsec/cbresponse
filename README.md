@@ -1,4 +1,4 @@
-Scripts created here rely on Carbon Black Response API
+Scripts created here rely on Carbon Black Response API.
 Comprehensive guide to setting this up can be seen at:
 https://cbapi.readthedocs.io/en/latest/
 
