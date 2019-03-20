@@ -10,5 +10,5 @@ Can summarise for you, to run scripts here you need to:
 4. Run the scripts with caution!  
 
 Thanks to Red Canary, reviewing their scripts helped understand how the API can work. 
-Some of the offical Carbon Black Response scripts seem decent but havent been updated since 2015
+Some of the official Carbon Black Response scripts seem decent but havent been updated since 2015 and found some of them not to work
 
