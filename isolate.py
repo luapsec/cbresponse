@@ -1,3 +1,9 @@
+#Script will:
+# Isolate the endpoint
+# Send message to user informing them their computer has been isolated, you may want to remove this if you believe it's an insider threat etc
+# Sync all events from sensor with server so they available in CBR asap
+# Check with server that endpoint has been isolated, found this takes around 30 seconds to isolate an endpoint but longer for it to report back properly
+
 import argparse
 import logging
 import time
@@ -8,7 +14,7 @@ def main():
 
   #Command line options/help info
   parser = argparse.ArgumentParser(description='Isolate a Carbon Black Sensor')
-  parser.add_argument("-c", type=str, action="store", help"Hostname to query.", required=True")
+  parser.add_argument("-c", type=str, action="store", help"Computer to isolate.", required=True")
   args = parser.parse_args()
   
   #Connect to CB Response
